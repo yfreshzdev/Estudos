@@ -15,7 +15,7 @@
     justify-content: center;
 }
 .form-text{
-    margin: 5px;
+    margin: 10px;
 }
 
 .form-content{
@@ -27,7 +27,7 @@
 .first{
     display: block;
     height: 23vh;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-left: 1em;
 }
 
@@ -36,4 +36,27 @@
     margin-top: 8px;
     margin-right: 10px;
     border-radius: 5px;
+}
+
+.second{
+    display: block;
+    height: 30vh;
+}
+
+.comentarios{
+    margin-left: 0.5em;
+}
+.texto{
+    border: 1px solid;
+    margin-top: 1em;
+    margin-left: 1em;
+    border-radius: 5px;
+    height: 20vh;
+}
+
+.terceiro{
+    display: flex;
+}
+.check{
+    margin-left: 1em;
 }
