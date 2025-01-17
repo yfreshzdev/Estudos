@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #ede9cc;
+}
+
+.container-conteudo{
+    position: relative;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+.logo{
+    background-color: red;
+}
