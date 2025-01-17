@@ -58,3 +58,76 @@ a:hover{
     color: #a4d6ff;
     text-decoration: none;
 }
+
+.conteudo{
+    display: flex;
+    background: url('../noticias-cidade/imagens/fundo-caixa.png');
+    margin-top: 100px;
+    height: 80vh;
+    width: 85%;
+    margin-left: 6em;
+}
+
+.lateral{
+    background-color: #fff;
+    display: block;
+    height: 36.5vh;
+    width: 200px;
+    padding: 5px;
+}
+
+.lateral-titulo{
+    color: #fff;
+    background-color: rgb(31, 11, 85);
+    padding: 5px;
+}
+
+.entrevistas{
+    background-color: rgb(238, 237, 237);
+    margin-top: 4px;
+    list-style: none;
+    font-size: 20px;
+    height: 30vh;
+    padding: 5px;
+}
+
+.item-lateral{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.conteudo1{
+    display: flex;
+    justify-content: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 75vh;
+    width: 600px;
+}
+
+.item-imagem{
+    height:  30vh;
+    border-radius: 5px;
+    border: 2px solid rgb(37, 9, 112);
+    margin-top: 5px;
+}
+
+.titulo-noticias1{
+    color: #fff;
+    background-color: rgb(31, 11, 85);
+    padding: 3px;
+}
+
+.subtitulo{
+    color: white;
+    background-color: rgb(31, 11, 85);
+    padding: 5px;
+    height: 40px;
+    width: 293px;
+    margin-top: -200px;
+    margin-left: 310px;
+}
+
+.noticias1{
+    display: block;
+}
