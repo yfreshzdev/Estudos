@@ -54,19 +54,19 @@
           <br />
 
           <div class="calculadora">
-            <input type="text" class="form-control resultado" placeholder="0" disabled="disabled" />
+            <input type="text" id="resultado" class="form-control resultado" placeholder="0" disabled="disabled" />
             
             <div class="row">
-              <button type="button" onclick= "acaoCalc"('acao', 'c') class="btn btn-dark btn-lg clear font-weight-light">C</button>
-              <button type="button" onclick= "acaoCalc"('acao', '/') class="btn btn-dark btn-lg font-weight-light">/</button>
-              <button type="button" onclick= "acaoCalc"('acao', '*') class="btn btn-dark btn-lg font-weight-light">x</button>
+              <button type="button" onclick= "acaoCalc('acao', 'c')" class="btn btn-dark btn-lg clear font-weight-light">C</button>
+              <button type="button" onclick= "acaoCalc('acao', '/')" class="btn btn-dark btn-lg font-weight-light">/</button>
+              <button type="button" onclick= "acaoCalc('acao', '*')" class="btn btn-dark btn-lg font-weight-light">x</button>
             </div>
 
             <div class="row">
               <button type="button" onclick= "acaoCalc('valor', 7) " class="btn btn-dark btn-lg font-weight-light">7</button>
               <button type="button" onclick= "acaoCalc('valor', 8) " class="btn btn-dark btn-lg font-weight-light">8</button>
               <button type="button" onclick= "acaoCalc('valor', 9) " class="btn btn-dark btn-lg font-weight-light">9</button>
-              <button type="button" onclick= "acaoCalc('acao', '-')"  class="btn btn-dark btn-lg font-weight-light">-</button>
+              <button type="button" onclick= "acaoCalc('acao', '-')" class="btn btn-dark btn-lg font-weight-light">-</button>
             </div>
             
             <div class="row">
@@ -80,12 +80,12 @@
               <button type="button" onclick= "acaoCalc('valor', 1) " class="btn btn-dark btn-lg font-weight-light">1</button>
               <button type="button" onclick= "acaoCalc('valor', 2) " class="btn btn-dark btn-lg font-weight-light">2</button>
               <button type="button" onclick= "acaoCalc('valor', 3) " class="btn btn-dark btn-lg font-weight-light">3</button>
-              <button type="button" onclick= "acaoCalc('valor', '=')" class="btn btn-dark btn-lg enter">=</button>
+              <button type="button" onclick= "acaoCalc('acao', '=')"class="btn btn-dark btn-lg enter">=</button>
             </div>
 
             <div class="row" style="margin-top: -60px">
               <button type="button" onclick= "acaoCalc('valor', 0) " class="btn btn-dark zero btn-lg font-weight-light">0</button>
-              <button type="button" onclick= "acaoCalc('acao', '.')"  class="btn btn-dark btn-lg font-weight-light">.</button>
+              <button type="button" onclick= "acaoCalc('acao', '.')" class="btn btn-dark btn-lg font-weight-light">.</button>
             </div>
 
           </div>
